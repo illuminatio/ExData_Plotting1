@@ -14,7 +14,7 @@ png("Plot4.png", width = 480, height = 480)
 par(mfrow = c(2, 2)) #show 4 plots on 1 device
 
 #Top left plot
-plot(df$POSIXDate, df$Global_active_power, xlab = "", ylab = "Global Active Power (kilowatts)", type = "l")
+plot(df$POSIXDate, df$Global_active_power, xlab = "", ylab = "Global Active Power", type = "l")
 #Top right plot
 plot(df$POSIXDate, df$Voltage, xlab = "datetime", ylab = "Voltage", type = "l")
 
